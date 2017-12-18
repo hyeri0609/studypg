@@ -1,5 +1,9 @@
 # studypg
 
+pg_dump --table=export_table --data-only --column-inserts my_database > data.sql
+
+----
+
 http://albertech.blogspot.com/2016/11/dump-table-to-another-database-in.html
 
 To dump a table from PostgreSQL you will often use pg_dump. This works great as long as your tables are defined exactly the same between databases.
